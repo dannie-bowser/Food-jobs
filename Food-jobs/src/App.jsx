@@ -1,5 +1,6 @@
 import React from 'react'
 import Navbar from './components/Navbar'
+import Hero from './components/Hero'
 
 const App = () => {
   return (
@@ -8,22 +9,7 @@ const App = () => {
       
 
     {/* <!-- Hero --> */}
-    <section class="bg-green-400 py-20 mb-4">
-      <div
-        class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col items-center"
-      >
-        <div class="text-center">
-          <h1
-            class="text-4xl font-extrabold text-green-900 sm:text-5xl md:text-6xl"
-          >
-            Become a renowed Chef
-          </h1>
-          <p class="my-4 text-xl text-green-800">
-            Find the cooking jobs that fits your culinary skills, in the world best kitchens
-          </p>
-        </div>
-      </div>
-    </section>
+       <Hero />
 
     {/* <!-- Developers and Employers --> */}
     <section class="py-4">
