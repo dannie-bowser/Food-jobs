@@ -10,10 +10,21 @@ import Hero from './components/Hero'
 import HomeCard from './components/HomeCard'
 import JobListings from './components/JobListings'
 import Viewjobs from './components/ViewAllJobs'
+import HomePage from './pages/HomePage'
+import HomeLayout from './Layouts/HomeLayout'
+import Jobspage from './pages/Jobspage'
+import NotFoundPage from './pages/NotFoundPage'
+
 
 
 const router = createBrowserRouter(
-  createRoutesFromElements(<Route index element={<h1>My App</h1>} />)
+  createRoutesFromElements(
+  <Route path="/" element={<HomeLayout />}>
+   <Route index element={<HomePage />} />
+   <Route path="/jobs" element={<Jobspage />} />
+   <Route path="*" element={<NotFoundPage />} />
+  </Route>
+)
 );
 
 const App = () => {
