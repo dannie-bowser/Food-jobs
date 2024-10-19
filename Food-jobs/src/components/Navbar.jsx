@@ -1,9 +1,13 @@
-import { Link } from 'react-router-dom'
+import { NavLink } from 'react-router-dom'
 import React from 'react'
 import logo from '../assets/images/logo.png'
 
 
 const Navbar = () => {
+
+  const LinkClass = ({isActive}) => isActive ? 'text-green-600 bg-white hover:bg-green-700 hover:text-white rounded-md px-3 py-2'
+                : 'text-white hover:bg-green-700 hover:text-white rounded-md px-3 py-2';
+
   return (
     <div>
         <nav className=" bg-green-900 border-b border-green-900">
@@ -13,7 +17,7 @@ const Navbar = () => {
             className="flex flex-1 items-center justify-center md:items-stretch md:justify-start"
           >
             {/* <!-- Logo --> */}
-            <Link className="flex flex-shrink-0 items-center mr-4" to="/index.html">
+            <NavLink className="flex flex-shrink-0 items-center mr-4" to="/index.html">
               <img
                 className="h-10 w-auto"
                 src={logo}
@@ -22,21 +26,21 @@ const Navbar = () => {
               <span className="hidden md:block text-white text-2xl font-bold ml-2"
                 >FOOD JOBS</span
               >
-            </Link>
+           </NavLink>
             <div className="md:ml-auto">
               <div className="flex space-x-2">
-                <Link
+                <NavLink
                   to="/"
-                  className="text-black bg-white hover:bg-green-700 hover:text-white rounded-md px-3 py-2"
-                  >Home</Link>
-                <Link
+                  className={LinkClass}
+                  >Home</NavLink>
+                <NavLink
                   to="/jobs"
-                  className="text-white hover:bg-green-700 hover:text-white rounded-md px-3 py-2"
-                  >Jobs</Link>
-                <Link
+                  className={LinkClass}
+                  >Jobs</NavLink>
+                <NavLink
                   to="/add-job"
-                  className="text-white hover:bg-green-700 hover:text-white rounded-md px-3 py-2"
-                  >Add Job</Link>
+                  className={LinkClass}
+                  >Add Job</NavLink>
               </div>
             </div>
           </div>
