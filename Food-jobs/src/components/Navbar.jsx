@@ -24,7 +24,7 @@ const Navbar = () => {
                 alt="React Jobs"
               />
               <span className="hidden md:block text-white text-2xl font-bold ml-2"
-                >FOOD JOBS</span
+                >TASTE QUEST</span
               >
            </NavLink>
             <div className="md:ml-auto">
