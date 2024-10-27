@@ -1,7 +1,7 @@
 import React from 'react'
 import dish from '../assets/images/soup.jpg'
 
-const Hero = ({title ="Become a renowed Chef", 
+const Hero = ({title ="BECOME A RENOWED CHEF", 
               subtitle ="Find the cooking jobs that fits your culinary skills, in the world best kitchens"}) => {
   return (
     <div
