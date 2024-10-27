@@ -1,6 +1,7 @@
 import { NavLink } from 'react-router-dom'
 import React from 'react'
 import logo from '../assets/images/logo.png'
+import chef from '../assets/images/chef.png'
 
 
 const Navbar = () => {
@@ -10,7 +11,7 @@ const Navbar = () => {
 
   return (
     <div>
-        <nav className=" bg-green-900 border-b border-green-900">
+        <nav className=" bg-orange-600 border-b border-orange-600">
       <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
         <div className="flex h-20 items-center justify-between">
           <div
@@ -20,10 +21,10 @@ const Navbar = () => {
             <NavLink className="flex flex-shrink-0 items-center mr-4" to="/index.html">
               <img
                 className="h-10 w-auto"
-                src={logo}
+                src={chef}
                 alt="React Jobs"
               />
-              <span className="hidden md:block text-white text-2xl font-bold ml-2"
+              <span className="hidden md:block text-white text-2xl font-extrabold tracking-[-3px] ml-2"
                 >TASTE QUEST</span
               >
            </NavLink>
