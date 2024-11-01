@@ -1,87 +1,88 @@
- {
-   "jobs": [
-  {
-    "id": "1",
-    "title": "Senior Head Chef",
-    "type": "Full-time",
-    "description": "We are seeking a talented Head chef to join our branch in Lekki, Lagos.The ideal candidate will have strong skills in Pastries, local dishes, few foreign dishes, with experience working with the modern cooking methods.",
-    "location": "Lekki, Lagos",
-    "salary": " $70k-$80k",
-    "company": {
+{
+  "jobs": [
+    {
+      "id": "1",
+      "title": "Senior Head Chef",
+      "type": "Full-time",
+      "description": "We are seeking a talented Head chef to join our branch in Lekki, Lagos.The ideal candidate will have strong skills in Pastries, local dishes, few foreign dishes, with experience working with the modern cooking methods.",
+      "location": "Lekki, Lagos",
+      "salary": " $70k-$80k",
+      "company": {
         "name": "Morningside resort",
         "description": "Morningside resort is a leading modern day cooking outlets, that renders lodging services for visitors, specializing in bringing the best delicacies and flavor to our clients, we pride ourselves on the quality of our delivery",
         "contactEmail": "morningside@outlook.com",
         "contactPhone": "+234-704-545-2210"
-    }
-  },
-  {
-    "id": "2",
-    "title": "Desk master",
-    "type": "Part-time",
-    "description": "join our branch in Ugbowo, Benin.The ideal candidate will have strong skills in Pastries and fries, local dishes, with ability to participate in collective effort.",
-    "location": "Ugbowo, Benin",
-    "salary": "$20-$30k",
-    "company": {
-        "name": "Taste quest",
-        "description": "Taste quest offer diverse flavors for our locals, bringing the ideal African taste to just the magic of a taste, looking to strive for the African pride",
-        "contactEmail": "Tastyq@gmail.com",
-        "contactPhone": "+234-814-532-5466"
-    }
-   },
-   {
-        "id": "3",
-        "title": "Senior Chef Assistant",
-        "type": "Full-time",
-        "description": "We are seeking a talented Head chef to join our branch in Lekki, Lagos.The ideal candidate will have strong skills in Pastries, local dishes, few foreign dishes, with experience working with the modern cooking methods.",
-        "location": "Lekki, Lagos",
-        "salary": "$40-$50k",
-        "company": {
-            "name": "Morningside resort",
-            "description": "Morningside resort is a leading modern day cooking outlets, that renders lodging services for visitors, specializing in bringing the best delicacies and flavor to our clients, we pride ourselves on the quality of our delivery",
-            "contactEmail": "morningside@outlook.com",
-            "contactPhone": "+234-704-545-2210"
-        }
+      }
     },
-  {
-    "id": "4",
-    "title": "Aenior Head Chef",
-    "type": "Full-time",
-    "description": "We are seeking a talented Head chef to join our branch in Lekki, Lagos.The ideal candidate will have strong skills in Pastries, local dishes, few foreign dishes, with experience working with the modern cooking methods.",
-    "location": "Lekki, Lagos",
-    "salary": " $70k-$80k",
-    "company": {
-        "name": "Morningside resort",
-        "description": "Morningside resort is a leading modern day cooking outlets, that renders lodging services for visitors, specializing in bringing the best delicacies and flavor to our clients, we pride ourselves on the quality of our delivery",
-        "contactEmail": "morningside@outlook.com",
-        "contactPhone": "+234-704-545-2210"
-    }
-  },
-  {
-    "id": "5",
-    "title": "Desk master",
-    "type": "Part-time",
-    "description": "join our branch in Ugbowo, Benin.The ideal candidate will have strong skills in Pastries and fries, local dishes, with ability to participate in collective effort.",
-    "location": "Ugbowo, Benin",
-    "salary": "$20-$30k",
-    "company": {
+    {
+      "id": "2",
+      "title": "Desk master",
+      "type": "Part-time",
+      "description": "join our branch in Ugbowo, Benin.The ideal candidate will have strong skills in Pastries and fries, local dishes, with ability to participate in collective effort.",
+      "location": "Ugbowo, Benin",
+      "salary": "$20-$30k",
+      "company": {
         "name": "Taste quest",
         "description": "Taste quest offer diverse flavors for our locals, bringing the ideal African taste to just the magic of a taste, looking to strive for the African pride",
         "contactEmail": "Tastyq@gmail.com",
         "contactPhone": "+234-814-532-5466"
+      }
+    },
+    {
+      "id": "3",
+      "title": "Senior Chef Assistant",
+      "type": "Full-time",
+      "description": "We are seeking a talented Head chef to join our branch in Lekki, Lagos.The ideal candidate will have strong skills in Pastries, local dishes, few foreign dishes, with experience working with the modern cooking methods.",
+      "location": "Lekki, Lagos",
+      "salary": "$40-$50k",
+      "company": {
+        "name": "Morningside resort",
+        "description": "Morningside resort is a leading modern day cooking outlets, that renders lodging services for visitors, specializing in bringing the best delicacies and flavor to our clients, we pride ourselves on the quality of our delivery",
+        "contactEmail": "morningside@outlook.com",
+        "contactPhone": "+234-704-545-2210"
+      }
+    },
+    {
+      "id": "4",
+      "title": "Head Chef",
+      "type": "Full-time",
+      "description": "We are seeking a talented Head chef to join our branch in Lekki, Lagos.The ideal candidate will have strong skills in Pastries, local dishes, few foreign dishes, with experience working with the modern cooking methods.",
+      "location": "Dansen, Benin",
+      "salary": " $30k-$60k",
+      "company": {
+        "name": "Food Fest",
+        "description": "Food Fest is a leading modern day cooking outlets, that renders lodging services for visitors, specializing in bringing the best delicacies and flavor to our clients, we pride ourselves on the quality of our delivery",
+        "contactEmail": "Foodfest@outlook.com",
+        "contactPhone": "+234-812-544-1233"
+      }
+    },
+    {
+      "id": "5",
+      "title": "Counter Chef",
+      "type": "Part-time",
+      "description": "join our branch in Ugbowo, Benin.The ideal candidate will have strong skills in Pastries and fries, local dishes, with ability to participate in collective effort.",
+      "location": "First Gate, Lekki",
+      "salary": "$20-$25k",
+      "company": {
+        "name": "Tantaliza",
+        "description": "Tantaliza offer diverse flavors for our locals, bringing the ideal African taste to just the magic of a taste, looking to strive for the African pride",
+        "contactEmail": "Tantaliza@outlook.live",
+        "contactPhone": "+234-815-500-3345"
+      }
+    },
+    {
+      "id": "6",
+      "title": "Senior Chef",
+      "type": "Full-time",
+      "description": "We are seeking a talented Head chef to join our branch in Lekki, Lagos.The ideal candidate will have strong skills in Pastries, local dishes, few foreign dishes, with experience working with the modern cooking methods.",
+      "location": "Lekki, Lagos",
+      "salary": "$80-$150k",
+      "company": {
+        "name": "KAA toast",
+        "description": "KAA toast is a leading modern day cooking outlets, that renders lodging services for visitors, specializing in bringing the best delicacies and flavor to our clients, we pride ourselves on the quality of our delivery",
+        "contactEmail": "Kelvinalbertart@outlook.com",
+        "contactPhone": "+234-912-888-2234"
+      }
     }
-   },
-   {
-        "id": "6",
-        "title": "Senior Chef Assistant",
-        "type": "Full-time",
-        "description": "We are seeking a talented Head chef to join our branch in Lekki, Lagos.The ideal candidate will have strong skills in Pastries, local dishes, few foreign dishes, with experience working with the modern cooking methods.",
-        "location": "Lekki, Lagos",
-        "salary": "$40-$50k",
-        "company": {
-            "name": "Morningside resort",
-            "description": "Morningside resort is a leading modern day cooking outlets, that renders lodging services for visitors, specializing in bringing the best delicacies and flavor to our clients, we pride ourselves on the quality of our delivery",
-            "contactEmail": "morningside@outlook.com",
-            "contactPhone": "+234-704-545-2210"
-        }
-    }
-]}
+  ]
+}

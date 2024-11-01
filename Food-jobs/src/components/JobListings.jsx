@@ -17,7 +17,6 @@ const JobListings = ({isHome = false}) => {
           '/api/jobs'
           const res = await fetch( apiURL );
           const data = await res.json();
-          console.log(data)
           setJobs(data);
 
         } catch (error) {
