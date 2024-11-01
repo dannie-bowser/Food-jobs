@@ -4,6 +4,7 @@ import { useParams, useLoaderData, useNavigate } from 'react-router-dom';
 import Spinner from '../components/Spinner';
 import { FaArrowLeft, FaMapMarker, FaMoneyBill, FaTag, FaList } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
+import { toast } from 'react-toastify';
  
 
 
@@ -19,6 +20,8 @@ const Jobpage = ({ deleteJob }) => {
      if (!confirm) return;
 
      deleteJob(jobId);
+
+     toast.success('Job deleted successfully');
 
      navigate('/jobs');
    }
@@ -127,7 +130,7 @@ const Jobpage = ({ deleteJob }) => {
             <div className="bg-white p-6 rounded-lg shadow-md mt-6">
               <h3 className="text-xl font-bold mb-6">Manage Job</h3>
               <Link
-                to={`/jobs/edit/${job.id}`}
+                to={`/edit-job/${job.id}`}
                 className="bg-slate-500 hover:bg-slate-600 text-white text-center font-bold py-2 px-4 rounded-md w-full focus:outline-none focus:shadow-outline mt-4 block"
                 >Edit Job</Link
               >

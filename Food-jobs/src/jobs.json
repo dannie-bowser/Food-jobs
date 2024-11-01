@@ -2,11 +2,11 @@
   "jobs": [
     {
       "id": "1",
-      "title": "Senior Head Chef",
       "type": "Full-time",
+      "title": "Senior Head Chef",
       "description": "We are seeking a talented Head chef to join our branch in Lekki, Lagos.The ideal candidate will have strong skills in Pastries, local dishes, few foreign dishes, with experience working with the modern cooking methods.",
-      "location": "Lekki, Lagos",
       "salary": " $70k-$80k",
+      "location": "Lekki, Lagos",
       "company": {
         "name": "Morningside resort",
         "description": "Morningside resort is a leading modern day cooking outlets, that renders lodging services for visitors, specializing in bringing the best delicacies and flavor to our clients, we pride ourselves on the quality of our delivery",
@@ -44,11 +44,11 @@
     },
     {
       "id": "4",
-      "title": "Head Chef",
       "type": "Full-time",
-      "description": "We are seeking a talented Head chef to join our branch in Lekki, Lagos.The ideal candidate will have strong skills in Pastries, local dishes, few foreign dishes, with experience working with the modern cooking methods.",
-      "location": "Dansen, Benin",
+      "title": "Head Chef",
+      "description": "We are seeking a talented Head chef to join our branch in benin city.The ideal candidate will have strong skills in Pastries, local dishes, few foreign dishes, with experience working with the modern cooking methods.",
       "salary": " $30k-$60k",
+      "location": "Dansen, Benin",
       "company": {
         "name": "Food Fest",
         "description": "Food Fest is a leading modern day cooking outlets, that renders lodging services for visitors, specializing in bringing the best delicacies and flavor to our clients, we pride ourselves on the quality of our delivery",
@@ -58,11 +58,11 @@
     },
     {
       "id": "5",
-      "title": "Counter Chef",
       "type": "Part-time",
-      "description": "join our branch in Ugbowo, Benin.The ideal candidate will have strong skills in Pastries and fries, local dishes, with ability to participate in collective effort.",
-      "location": "First Gate, Lekki",
+      "title": "Counter Chef",
+      "description": "join our branch in lagos, the ideal applicant should have strong skills in Pastries and fries, local dishes, and also serve the best delicacies  with ability to participate in collective effort.",
       "salary": "$20-$25k",
+      "location": "First Gate, Lekki",
       "company": {
         "name": "Tantaliza",
         "description": "Tantaliza offer diverse flavors for our locals, bringing the ideal African taste to just the magic of a taste, looking to strive for the African pride",
