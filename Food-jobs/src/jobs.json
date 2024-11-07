@@ -83,6 +83,20 @@
         "contactEmail": "Kelvinalbertart@outlook.com",
         "contactPhone": "+234-912-888-2234"
       }
+    },
+    {
+      "id": "af7c",
+      "type": "Part-Time",
+      "title": "junior chef",
+      "description": "applicant exercise good communication skills (English, and any other local language), should be able to complete and cooperate with a team, be of good kitchen ethics, and have a good and manageable level of Education.",
+      "salary": "$100K - 125K",
+      "location": "badagary, Lagos",
+      "company": {
+        "name": "alpine north",
+        "description": "well furbished company, establish as the leading food-tech company in the world market today, we have a good worker and customer service offering the best that meets your budget. ",
+        "contactEmail": "alpinenorth@yahoo.com",
+        "contactPhone": "+234-807-234-8897"
+      }
     }
   ]
 }
